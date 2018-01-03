@@ -1,5 +1,5 @@
 searchcode:
-  image: arkii/searchcode-server-community
+  image: quay.io/spivegin/searchcode
   volumes:
     - /srv/searchcode/index:/srv/index
     - /srv/searchcode/repo:/srv/repo

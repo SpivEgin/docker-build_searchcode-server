@@ -1,6 +1,6 @@
 FROM        quay.io/spivegin/openjdk
 MAINTAINER  SpivEgin spivegin@trhhosting.com
-ENV         SERVER_VERSION 1.3.11
+ENV         SERVER_VERSION 1.3.10
 ENV         URL https://searchcode.com/static/searchcode-server-community.tar.gz
 RUN         apt-get update && apt-get install -y wget && \
                 wget -O /tmp/searchcode-server-community.tar.gz ${URL} && \
