@@ -7,3 +7,4 @@ searchcode:
     - /srv/searchcode/searchcode.sqlite:/srv/searchcode.sqlite
   ports:
     - "8080:8080/tcp"
+# todo: replace volumes
