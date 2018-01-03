@@ -35,6 +35,7 @@ docker-compose up -d
 **then visit [http://yourdockerserverip:8080/](http://yourdockerserverip:8080/)**  
 
 To administer your searchcode server instance you need to click on the Admin link in the top right.
-Enter the default password **Adm1n234**
+Enter the default password **Ek9AjrFnEki9qnziCPyK**
+** change password in searchcode.properties
 
 

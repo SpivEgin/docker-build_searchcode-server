@@ -7,6 +7,7 @@ RUN         apt-get update && apt-get install -y wget && \
                 cd /tmp && tar zxvf /tmp/searchcode-server-community.tar.gz && \
                 rm -rf /srv && mv searchcode-server-community/release /srv && \
                 rm -f /tmp/searchcode-server-community.tar.gz
+ADD tools/searchcode.properties /srv/searchcode.properties
 WORKDIR     /srv
 CMD         ["sh", "searchcode-server.sh"]
 EXPOSE      8080/tcp
